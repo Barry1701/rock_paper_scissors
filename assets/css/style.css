@@ -1,4 +1,79 @@
 body{
     font-family: 'Goblin One',
         cursive;
+    margin: 0;
+    
+}
+header {
+    text-align: center;
+    padding:10px;
+    background-color: #FFE4C4;
+
+    
+}
+
+
+
+/*Game Area*/
+.game-area {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.control {
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
+
+}
+
+#messages {
+    height: 20px;
+}
+
+    
+
+.player {
+   
+    float: left;
+    width: 45%;
+    
+    
+    
+}
+
+
+
+.computer {
+    
+    float: right;
+    width: 45%;
+    
+    
+    
+}
+
+#player-image,
+#computer-image {
+
+
+    width: 70%;
+    height: 80%;
+}
+
+.rules {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: #000000;
+    background-color: #FFE4C4;
 }
