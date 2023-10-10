@@ -6,8 +6,8 @@ body{
 }
 header {
     text-align: center;
-    padding:10px;
-    background-color: #FFE4C4;
+    padding: 10px;
+    background-color: #F5DEB3;
 
     
 }
@@ -26,9 +26,21 @@ header {
 .control {
     display: inline-block;
     margin: 2px;
-    width: 80px;
+    width: 90px;
     height: 40px;
+    border:2px double #000000;
+    border-radius: 8px;
+    
 
+}
+button[data-choice="0"] {
+    background-color: #FFD700;
+}
+button[data-choice="1"] {
+    background-color: #FFC0CB;
+}
+button[data-choice="2"] {
+    background-color: #98BF64;
 }
 
 #messages {
@@ -44,6 +56,7 @@ header {
     
     
     
+    
 }
 
 
@@ -52,10 +65,12 @@ header {
     
     float: right;
     width: 45%;
-    
-    
-    
 }
+    
+    
+   
+    
+
 
 #player-image,
 #computer-image {
@@ -63,6 +78,7 @@ header {
 
     width: 70%;
     height: 80%;
+    
 }
 
 .rules {
@@ -74,6 +90,7 @@ header {
     min-height: 80px;
     padding-top: 5px;
     text-align: center;
-    color: #000000;
-    background-color: #FFE4C4;
+    background-color: #F5DEB3;
+    margin-top: 20px;
+    
 }
