@@ -26,23 +26,36 @@ header {
 .control {
     display: inline-block;
     margin: 2px;
-    width: 90px;
+    width: 15%;
     height: 40px;
     border:2px double #000000;
     border-radius: 8px;
     
 
 }
+
+
+
 button[data-choice="0"] {
     background-color: #FFD700;
 }
+button[data-choice="0"]:hover{
+    background-color:#EEC600 ;
+}
+
 button[data-choice="1"] {
     background-color: #FFC0CB;
+    
+}
+button[data-choice="1"]:hover {
+    background-color: #EEB0BA;
 }
 button[data-choice="2"] {
     background-color: #98BF64;
 }
-
+button[data-choice="2"]:hover {
+    background-color: #87AD53;
+}
 #messages {
     height: 20px;
 }
