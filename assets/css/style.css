@@ -25,7 +25,7 @@ header {
 
 .control {
     display: inline-block;
-    margin: 2px;
+    margin: 5px;
     width: 15%;
     height: 40px;
     border:2px double #000000;
@@ -59,25 +59,17 @@ button[data-choice="2"]:hover {
 #messages {
     height: 20px;
 }
-
-    
-
-.player {
-   
-    float: left;
-    width: 45%;
-    
-    
-    
-    
+.choice-section{
+    margin:30px;
 }
-
-
-
-.computer {
     
-    float: right;
-    width: 45%;
+
+.score-section{
+    display:flex;
+}
+.player, .computer{
+    flex:1;
+    text-align: center;
 }
     
     .scores{
@@ -91,8 +83,8 @@ button[data-choice="2"]:hover {
 #computer-image {
 
 
-    width: 70%;
-    height: 80%;
+    width: 60%;
+    height: auto;
     
 }
 
@@ -122,17 +114,18 @@ button[data-choice="2"]:hover {
     }
 
     .control {
-        width: 27%;
+        width: 47%;
     }
 
     .scores{
         font-size: 12px;
-        margin-top: 55px;
+        margin-top: 5px;
     }
 #player-image,
 #computer-image {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 5px;
+    border: 2px ridge #000000;
 }
 .rules, p {
     font-size:12px ;
