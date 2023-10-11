@@ -1,50 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice"
+      rel="stylesheet"
+    />
     <title>Rock Paper Scissors</title>
- 
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h2><strong>Rock, Paper, Scissors</strong></h2>
+      <h2><strong>Rock, Paper, Scissors</strong></h2>
     </header>
-    <Section class="game-area">
-        <div class="choice-section">
-            <h4>Make A Choice:</h4>
-            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
-            <button arial-label="Paper" data-choice="1" class="control">Paper</button>
-            <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
-        </div>
-        <div id="messages"></div>
-        <div class="score-section">
+    <section class="game-area">
+      <div class="choice-section">
+        <h4>Make A Choice:</h4>
+        <button aria-label="Rock" data-choice="0" class="control">Rock</button>
+        <button arial-label="Paper" data-choice="1" class="control">
+          Paper
+        </button>
+        <button aria-label="Scissors" data-choice="2" class="control">
+          Scissors
+        </button>
+      </div>
+      <div id="messages"></div>
+      <div class="score-section">
         <div class="player">
-            <h3 class="scores">Your Score: <span id="player-score">0</span></h3>
-            <img id="player-image" src="assets/images/rps.png" alt="Rock Paper Scissors">
-            
+          <h3 class="scores">Your Score: <span id="player-score">0</span></h3>
+          <img
+            id="player-image"
+            src="assets/images/rps.png"
+            alt="Rock Paper Scissors"
+          />
         </div>
         <div class="computer">
-             <h3 class="scores">PC Score: <span id="computer-score">0</span></h3>
-             <img id="computer-image" src="assets/images/rps.png" alt="Rock Paper Scissors">
+          <h3 class="scores">PC Score: <span id="computer-score">0</span></h3>
+          <img
+            id="computer-image"
+            src="assets/images/rps.png"
+            alt="Rock Paper Scissors"
+          />
         </div>
-        </div>
-       
-    </Section>
+      </div>
+    </section>
 
     <footer class="rules">
-        <h3>Rules</h3>
-        <p>Scissors cut Paper | Paper covers Rock | Rock blunts Scissors</p>
-        
-        
+      <h3>Rules</h3>
+      <p>Scissors cut Paper | Paper covers Rock | Rock blunts Scissors</p>
     </footer>
-
-
-</body>
+  </body>
 </html>
