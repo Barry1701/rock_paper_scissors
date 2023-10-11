@@ -1,5 +1,5 @@
 body{
-    font-family: 'Goblin One',
+    font-family: 'Bungee Spice',
         cursive;
     margin: 0;
     
@@ -7,7 +7,7 @@ body{
 header {
     text-align: center;
     padding: 10px;
-    background-color: #F5DEB3;
+    background-color: #000000;
 
     
 }
@@ -97,8 +97,9 @@ button[data-choice="2"]:hover {
     min-height: 80px;
     padding-top: 5px;
     text-align: center;
-    background-color: #F5DEB3;
+    background-color: #000000;
     margin-top: 20px;
+    letter-spacing: 1px;
    
     
 }
@@ -125,9 +126,11 @@ button[data-choice="2"]:hover {
 #computer-image {
     width: 100%;
     margin-top: 5px;
-    border: 2px ridge #000000;
+    border: 3px outset #000000;
+    border-radius: 5px;
 }
 .rules, p {
     font-size:12px ;
+    margin: 0;
 }
 }
