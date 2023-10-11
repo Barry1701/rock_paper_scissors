@@ -80,7 +80,9 @@ button[data-choice="2"]:hover {
     width: 45%;
 }
     
-    
+    .scores{
+        margin:0;
+    }
    
     
 
@@ -105,5 +107,34 @@ button[data-choice="2"]:hover {
     text-align: center;
     background-color: #F5DEB3;
     margin-top: 20px;
+   
     
+}
+@media (max-width:768px) {
+    header, h2{
+        font-size:20px;
+    }
+   
+    .game-area {
+        width: 85%;
+        margin-top: 30px;
+        
+    }
+
+    .control {
+        width: 27%;
+    }
+
+    .scores{
+        font-size: 12px;
+        margin-top: 55px;
+    }
+#player-image,
+#computer-image {
+    width: 100%;
+    margin-top: 35px;
+}
+.rules, p {
+    font-size:12px ;
+}
 }
