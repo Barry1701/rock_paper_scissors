@@ -69,6 +69,7 @@ button[data-choice="2"]:hover {
 }
 .choice-section{
     margin:30px;
+    
 }
     
 
@@ -102,7 +103,7 @@ button[data-choice="2"]:hover {
     left: 0;
     bottom: 0;
     box-sizing: border-box;
-    min-height: 80px;
+    height: 60px;
     padding-top: 5px;
     text-align: center;
     background-color: #000000;
@@ -134,9 +135,10 @@ button[data-choice="2"]:hover {
 #computer-image {
     width: 100%;
     margin-top: 5px;
-    border: 3px outset #000000;
+    border: 3px groove #000000;
     border-radius: 5px;
 }
+
 .rules, p {
     font-size:12px ;
     margin: 0;
