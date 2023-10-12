@@ -12,7 +12,7 @@ Enjoy a quick and fun gaming experience for passing the time. Whether you are wa
 
 * It central placement makes it easey for players to identify the game title!
   
-    ![Title of the game](documentation/header.PNG)
+![Title of the game](documentation/header.PNG)
 
 ### **The Game Options:**
 
@@ -27,4 +27,25 @@ Enjoy a quick and fun gaming experience for passing the time. Whether you are wa
 * The results are clear and concise, with a point system to kepp track of the score.
 * Whether you win, loose or there is a tie, the game provides feedback to keep you engaged and compettive.
 
-![Results and Scores](documentation/score.PNG)
+![Results and Scores](documentation/scoreArea.PNG)
+
+### **The Footer:**
+
+* The footer section provides essential information about about the game's rules.
+* It add finishing touch to gaming experience, so you can be well informed and engaged.
+
+![Footer with game rules](documentation/gameRules.PNG)
+
+## Testing
+
+### *Manual Testing:*
+
+* I tested the game functionality that it accurately determines the winner based on the chosen option.
+* I verified that the game works on various browsers.
+* I assesed the game's responsiveness on multiple devices such as smartphones, tablets and computers.
+* I confirmed that the game scores update correctly after each round.
+* I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+![Accessibility](documentation/access.PNG)
+
+
