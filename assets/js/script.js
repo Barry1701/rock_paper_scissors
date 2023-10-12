@@ -51,3 +51,18 @@ function checkWinner(computerChoice, playerChoice) {
         return "player";
     }
 }
+/**
+ * Add updateScores to update socre based on a result.
+ */
+
+function updateScores (result) {
+    if(result === "player") {
+        playerScore.textContent = parseInt(playerScore.textContent) + 1;
+        messages.textContent = "You Win!";
+    }else if(result === "computer") {
+        computerScore.textContent = parseInt(computerScore.textContent) + 1;
+        messages.textContent = "Computer Wins!";
+    }else{
+        messages.textContent = "It is a Tie!"
+    }
+}
