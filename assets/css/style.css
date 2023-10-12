@@ -8,14 +8,14 @@ html, body {
 body{
     font-family: 'Bungee Spice',
         cursive;
-    background-color: blanchedalmond;
+    background-color: #420C09;
     
     
 }
 header {
     text-align: center;
     padding: 5px;
-    background-color: #000000;
+    
 
 }
 header, h2 {
@@ -37,7 +37,7 @@ header, h2 {
     margin: 5px;
     width: 15%;
     height: 40px;
-    border:2px double #000000;
+    border:2px groove #000000;
     border-radius: 8px;
     
 
@@ -46,10 +46,10 @@ header, h2 {
 
 
 button[data-choice="0"] {
-    background-color: #FFD700;
+    background-color: #F4C430;
 }
 button[data-choice="0"]:hover{
-    background-color:#EEC600 ;
+    background-color:#E3B320 ;
 }
 
 button[data-choice="1"] {
@@ -95,6 +95,8 @@ button[data-choice="2"]:hover {
 
     width: 60%;
     height: auto;
+    border: 3px groove #000000;
+        border-radius: 5px;
     
 }
 
@@ -105,7 +107,6 @@ footer {
     height: 60px;
     padding-bottom: 26px;
     text-align: center;
-    background-color: #000000;
     margin-top: auto;
     letter-spacing: 1px;
    
@@ -134,13 +135,20 @@ footer {
 #computer-image {
     width: 100%;
     margin-top: 5px;
-    border: 3px groove #000000;
-    border-radius: 5px;
+   
 }
 
-
+footer{
+    position:relative;
+    margin-top:auto;
+   
+}
 
 footer, p {
     font-size:12px ;
     margin: 0;
 }
+
+
+
+}   
