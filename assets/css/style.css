@@ -1,25 +1,26 @@
-html {
-    width:100%;
+html, body {
+    
     height:100%;
+    margin:0;
+    padding:0;
 }
 
 body{
     font-family: 'Bungee Spice',
         cursive;
-    margin: 0;
-    border:0;
     background-color: blanchedalmond;
     
     
 }
 header {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background-color: #000000;
 
-    
 }
-
+header, h2 {
+    padding:5px;
+}
 
 
 /*Game Area*/
@@ -97,17 +98,15 @@ button[data-choice="2"]:hover {
     
 }
 
-.rules {
+footer {
     position: absolute;
+    bottom:0;
     width: 100%;
-    left: 0;
-    bottom: 0;
-    box-sizing: border-box;
     height: 60px;
-    padding-top: 5px;
+    padding-bottom: 26px;
     text-align: center;
     background-color: #000000;
-    margin-top: 20px;
+    margin-top: auto;
     letter-spacing: 1px;
    
     
@@ -139,8 +138,9 @@ button[data-choice="2"]:hover {
     border-radius: 5px;
 }
 
-.rules, p {
+
+
+footer, p {
     font-size:12px ;
     margin: 0;
-}
 }
