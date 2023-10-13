@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to CSS stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Link to Favicon-->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -22,6 +24,7 @@
       sizes="16x16"
       href="assets/favicon_io/favicon-16x16.png"
     >
+    <!--Link to google fonts-->
     <link
       href="https://fonts.googleapis.com/css2?family=Bungee+Spice"
       rel="stylesheet"
@@ -30,11 +33,13 @@
   </head>
   <body>
     <header>
+        <!--title of the game-->
       <h2>Rock, Paper, Scissors</h2>
     </header>
     <section class="game-area">
       <div class="choice-section">
         <h4>Make A Choice:</h4>
+        <!--Buttons for player choices-->
         <button aria-label="Rock" data-choice="0" class="control">Rock</button>
         <button aria-label="Paper" data-choice="1" class="control">
           Paper
@@ -45,6 +50,7 @@
       </div>
       <div id="messages"></div>
       <div class="score-section">
+        <!--Players score and image-->
         <div class="player">
           <h3 class="scores">Your Score: <span id="player-score">0</span></h3>
           <img
@@ -53,6 +59,7 @@
             alt="Rock Paper Scissors"
           >
         </div>
+        <!--Computers score and image-->
         <div class="computer">
           <h3 class="scores">PC Score: <span id="computer-score">0</span></h3>
           <img
@@ -63,11 +70,12 @@
         </div>
       </div>
     </section>
-
+    <!--Game rules display in the footer-->
     <footer>
         <h3>Rules:</h3>
       <p>Scissors cut Paper | Paper covers Rock | Rock blunts Scissors</p>
     </footer>
+    <!--Link to javaScript file-->
     <script src="assets/js/script.js"></script>
   </body>
   

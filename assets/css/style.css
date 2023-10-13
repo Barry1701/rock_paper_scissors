@@ -78,7 +78,7 @@ button[data-choice="2"]:hover {
     display:flex;
 }
 .player, .computer{
-    flex:1;
+    flex:1; /*Distribite flex item equally*/
     text-align: center;
 }
     
@@ -93,13 +93,13 @@ button[data-choice="2"]:hover {
 #computer-image {
 
 
-    width: 60%;
+    width: 50%;
     height: auto;
     border: 3px groove #000000;
         border-radius: 5px;
     
 }
-
+/*Adjust footer styles*/
 footer {
     position: absolute;
     bottom:0;
@@ -112,6 +112,7 @@ footer {
    
     
 }
+/*Media Query for smaller screens(max-width 768px*/
 @media (max-width:768px) {
     header, h2{
         font-size:20px;
@@ -133,7 +134,7 @@ footer {
     }
 #player-image,
 #computer-image {
-    width: 100%;
+    width: 90%;
     margin-top: 5px;
    
 }
