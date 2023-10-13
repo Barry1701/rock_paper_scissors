@@ -45,7 +45,37 @@ Enjoy a quick and fun gaming experience for passing the time. Whether you are wa
 * I assesed the game's responsiveness on multiple devices such as smartphones, tablets and computers.
 * I confirmed that the game scores update correctly after each round.
 * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
-
+  
 ![Accessibility](documentation/access.PNG)
 
+### *Bugs:*
 
+* My game was not working because i forgot to add "script=assets/js/script.js" to my HTML file.
+* I had 2 errors in my HTML validators which i fixed. One of the was typo and the other was that I put "script=assets/js/script.js" under the "body" .
+* I had couple of typos in my javaScript file but i fixed everything.
+
+### *Validator Testing:*
+
+![HTML Validation Test](documentation/html.PNG)
+
+![CSS Validation Test](documentation/css.PNG)
+
+## Deployment
+
+##### The project was deployed to GitHub Pages. To deploy:
+
+1. In the GitHub respository, navigate to the "Settings" tab.
+2. In the "Source" section dropdown, select the "Master Branch".
+3. Once the master branch is selected, the page provides a link to the completed website.
+
+Website link: [Rock, Paper, Scissors](https://barry1701.github.io/rock_paper_scissors/)
+
+## Credits
+
+#### Content:
+
+* Project was inspired by Portfolio 2 : Project Submission.
+
+#### Media:
+
+* The image of 3 hands was taken from internet browser and the cut into 3 different pieces by myself.
