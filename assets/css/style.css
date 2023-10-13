@@ -4,12 +4,12 @@ html, body {
     margin:0;
     padding:0;
 }
-
+/*Body styles*/
 body{
     font-family: 'Bungee Spice',
         cursive;
     background-color: #420C09;
-    
+  /*Header Styles*/  
     
 }
 header {
@@ -31,7 +31,7 @@ header, h2 {
     margin-top: 1%;
     text-align: center;
 }
-
+/*Control button styles*/
 .control {
     display: inline-block;
     margin: 5px;
@@ -42,7 +42,7 @@ header, h2 {
     
 
 }
-
+/*Button styles and hover effect*/
 
 
 button[data-choice="0"] {
@@ -73,10 +73,11 @@ button[data-choice="2"]:hover {
     
 }
     
-
+/*Score section style*/
 .score-section{
-    display:flex;
+    display:flex;/*Display score section as a flex container*/
 }
+/*Player and cumputer styles*/
 .player, .computer{
     flex:1; /*Distribite flex item equally*/
     text-align: center;
